@@ -7,5 +7,5 @@ I keep stuff here, explore. :)
 
 NOTE: I am using my version of the InMoov head and not the default V1 or V2 head. 
 - Gestures will still be compatible as I have my services set up to do so.
-- The main differences with my head is it has a ```Lateral Jaw```.
+- The main difference with my head is that it has a ```Lateral Jaw```.
 - ```Lateral Jaw``` will be assigned to ```i01.head.upperLip``` V2 Head servo service. 
