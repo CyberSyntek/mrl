@@ -3,6 +3,8 @@
 # - Coppy and paste into python. 
 # - OR enter file location into your data\config\python.yml and load with your config so you can make adjustments easily.
 
+#Note - I currently have autodisable timers set to 1s for the following servos (i01.head.neck / i01.torso.topStom / i01.torso.midStom) to help silence things. 
+
 ####   NATURAL EYES RANDOM   ####
 i01_random.addRandom("randomNaturalEyes", 400, 5000, "python", "exec", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookU()", "SubtleLookU()", "SubtleLookD()", "SubtleLookD()", "SubtleLookL()", "SubtleLookL()", "SubtleLookR()", "SubtleLookR()", "SubtleLookUL()", "SubtleLookUR()", "SubtleLookDL()", "SubtleLookDR()")
 
