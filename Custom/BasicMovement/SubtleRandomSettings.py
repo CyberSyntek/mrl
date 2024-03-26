@@ -1,4 +1,6 @@
 #####   SUBTLE RANDOM SETUP   #####
+#With i01.random enabled, copy and paste into python. 
+#OR enter file location into your data\config\python.yml and load with your config so you can make adjustments easily.
 
 ####   NATURAL EYES RANDOM   ####
 i01_random.addRandom("randomNaturalEyes", 400, 5000, "python", "exec", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookC()", "SubtleLookU()", "SubtleLookU()", "SubtleLookD()", "SubtleLookD()", "SubtleLookL()", "SubtleLookL()", "SubtleLookR()", "SubtleLookR()", "SubtleLookUL()", "SubtleLookUR()", "SubtleLookDL()", "SubtleLookDR()")
