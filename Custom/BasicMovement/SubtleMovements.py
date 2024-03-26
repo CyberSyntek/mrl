@@ -1,5 +1,7 @@
 ######SUBTLE MOVMENTS######
-
+# - You may need to adjust "i01_head_eyeRightLR" as mine is about -10 degree less than "i01_head_eyeLeftLR" currently. 
+# - My "i01_head_eyelidRightUpper" & "i01_head_eyelidRightLower" have a bit of offset from the left side at mid range positions currently, you may need to slightly adjust or match to left. 
+# - Check how "i01_head_rollNeck" is behaving with your calibration, may need adjusting according to your min/max settings. 
 
 ###SUBLE EYE MOVMENTS###
 def SubtleLookC():
@@ -11,7 +13,7 @@ def SubtleLookC():
     i01_head_eyeLeftUD.moveTo(90)
     i01_head_eyeLeftLR.moveTo(90)
     i01_head_eyeRightUD.moveTo(90)
-    i01_head_eyeRightLR.moveTo(80) 
+    i01_head_eyeRightLR.moveTo(80)   
 
 def SubtleLookU():
     print("SubtleLookU")
@@ -121,8 +123,8 @@ def SubtleEyelidsMid():
     i01_head_eyelidRightLower.setMaxSpeed()
     i01_head_eyelidLeftUpper.moveTo(50)
     i01_head_eyelidLeftLower.moveTo(50)
-    i01_head_eyelidRightUpper.moveTo(70)
-    i01_head_eyelidRightLower.moveTo(40)
+    i01_head_eyelidRightUpper.moveTo(70)   
+    i01_head_eyelidRightLower.moveTo(40)   
 
 def SubtleEyelidsLowerClosing():
     print("SubtleEyelidsLowerClosing")
